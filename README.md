@@ -9,14 +9,16 @@ helm repo update
 helm search bredbandskollen
 ```
 
-## Add new chart to repo 
+## Development
+
+### Add new chart to repo 
 
 ```
 cd charts
 helm create <name>
 ```
 
-## Release chart update
+### Release chart update
 
 1. Update `Chart.yaml` `version` and `appVersion` fields.
 2. Commit and push changes.
