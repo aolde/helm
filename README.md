@@ -6,7 +6,7 @@ Helm repo for charts created by @aolde
 ```
 helm repo add aolde 'https://aolde.github.io/helm/'
 helm repo update
-helm search bredbandskollen
+helm search repo bredbandskollen
 ```
 
 ## Development
