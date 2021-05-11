@@ -3,6 +3,28 @@ entries:
   bredbandskollen-prometheus-exporter:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2021-05-11T18:22:51.413009154Z"
+    description: Export Internet speed tests from Bredbandskollen to Prometheus
+    digest: 5bfaf77781ba9c3bd334c923b4951221f65e9346648d89951931ebd24cc3f1ee
+    home: https://github.com/aolde/bredbandskollen-prometheus-exporter
+    keywords:
+    - prometheus-exporter
+    - prometheus
+    - bredbandskollen
+    - speedtest
+    - internet-speed-test
+    maintainers:
+    - name: Andreas Oldeskog
+      url: https://github.com/aolde
+    name: bredbandskollen-prometheus-exporter
+    sources:
+    - https://github.com/aolde/bredbandskollen-prometheus-exporter
+    type: application
+    urls:
+    - https://github.com/aolde/helm/releases/download/bredbandskollen-prometheus-exporter-0.2.0/bredbandskollen-prometheus-exporter-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2021-05-10T19:44:13.830652038Z"
     description: Export Internet speed tests from Bredbandskollen to Prometheus
     digest: 96c6836f17a3198ed9e7d3e2cce29bf508af3f85a285d632a30884df22d5628b
@@ -11,4 +33,4 @@ entries:
     urls:
     - https://github.com/aolde/helm/releases/download/bredbandskollen-prometheus-exporter-0.1.0/bredbandskollen-prometheus-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-10T19:44:13.830666439Z"
+generated: "2021-05-11T18:22:51.413018954Z"
