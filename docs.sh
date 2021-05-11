@@ -1,0 +1,1 @@
+helm-docs -c charts
