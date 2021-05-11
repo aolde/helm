@@ -4,9 +4,10 @@ Helm repo for charts created by @aolde
 ## Register repo
 
 ```
-helm repo add aolde 'https://aolde.github.io/helm/'
+helm repo add aolde https://aolde.github.io/helm
 helm repo update
-helm search repo bredbandskollen
+helm search repo aolde
+helm install my-release aolde/<chart>
 ```
 
 ## Development
