@@ -1,6 +1,9 @@
 # helm
 Helm repo for charts created by @aolde
 
+[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/aolde)](https://artifacthub.io/packages/search?repo=aolde)
+
+
 ## Register repo
 
 ```
