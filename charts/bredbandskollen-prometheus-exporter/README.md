@@ -16,7 +16,7 @@ $ helm repo add aolde https://aolde.github.io/helm
 $ helm install my-release -f values.yaml aolde/bredbandskollen-prometheus-exporter
 ```
 
-Create a `values.yaml` file customize the chart.
+Create a `values.yaml` file to customize the chart.
 
 ```yaml
 # example values.yaml - modify to your needs
