@@ -2,6 +2,18 @@ apiVersion: v2
 name: bredbandskollen-prometheus-exporter
 description: Export Internet speed tests from Bredbandskollen to Prometheus
 type: application
+keywords:
+    - prometheus-exporter
+    - prometheus
+    - bredbandskollen
+    - speedtest
+    - internet-speed-test
+home: https://github.com/aolde/bredbandskollen-prometheus-exporter
+sources:
+    - https://github.com/aolde/bredbandskollen-prometheus-exporter
+maintainers:
+    - name: Andreas Oldeskog
+      url: https://github.com/aolde
 
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
