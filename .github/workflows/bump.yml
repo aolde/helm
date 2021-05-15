@@ -1,0 +1,19 @@
+name: Bump Charts
+
+on:
+    workflow_dispatch:
+        inputs:
+            chartName:
+                description: "Chart name"
+                required: true
+            appVersion:
+                description: "New app version"
+                required: true
+
+jobs:
+    printInputs:
+        runs-on: ubuntu-latest
+        steps:
+            - run: |
+                  echo "Chart name: ${{ github.event.inputs.chartName }}"
+                  echo "New app version: ${{ github.event.inputs.appVersion }}"
