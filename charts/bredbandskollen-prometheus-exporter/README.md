@@ -21,6 +21,7 @@ Create a `values.yaml` file to customize the chart.
 ```yaml
 # example values.yaml - modify to your needs
 podAnnotations:
+    prometheus.io/scrape: "true"
     prometheus.io/path: "/metrics"
     prometheus.io/port: "80"
 
