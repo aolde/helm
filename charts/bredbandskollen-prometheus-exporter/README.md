@@ -1,7 +1,7 @@
 
 # bredbandskollen-prometheus-exporter
 
-![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.1.0](https://img.shields.io/badge/AppVersion-0.1.0-informational?style=flat-square)
+![Version: 0.2.3](https://img.shields.io/badge/Version-0.2.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 1.0.2](https://img.shields.io/badge/AppVersion-1.0.2-informational?style=flat-square)
 
 > Export Internet speed tests from Bredbandskollen to Prometheus
 
@@ -21,7 +21,6 @@ Create a `values.yaml` file to customize the chart.
 ```yaml
 # example values.yaml - modify to your needs
 podAnnotations:
-    prometheus.io/scrape: "true"
     prometheus.io/path: "/metrics"
     prometheus.io/port: "80"
 
@@ -39,7 +38,6 @@ podAnnotations:
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | image.repository | string | `"aolde/bredbandskollen-prometheus-exporter"` |  |
-| image.tag | string | `"latest"` | Overrides the image tag whose default is the chart appVersion. |
 | imagePullSecrets | list | `[]` |  |
 | ingress.annotations | object | `{}` |  |
 | ingress.enabled | bool | `false` |  |
