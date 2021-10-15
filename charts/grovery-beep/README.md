@@ -18,14 +18,6 @@ $ helm install my-release -f values.yaml aolde/grocery-beep
 
 Create a `values.yaml` file to customize the chart.
 
-```yaml
-# example values.yaml - modify to your needs
-podAnnotations:
-    prometheus.io/path: "/metrics"
-    prometheus.io/port: "80"
-
-```
-
 ## Values
 
 | Key | Type | Default | Description |
