@@ -1,0 +1,27 @@
+apiVersion: v2
+name: grocery-beep
+description: Scan barcodes to add products to your grocery shopping list
+type: application
+keywords:
+    - mqtt
+    - grocery-shopping
+    - shopping-list
+    - barcode-scanner
+    - esp32
+home: https://github.com/aolde/grocery-beep
+sources:
+    - https://github.com/aolde/grocery-beep
+    - https://github.com/aolde/helm/tree/main/charts/grocery-beep
+maintainers:
+    - name: Andreas Oldeskog
+      url: https://github.com/aolde
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 0.0.1
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+appVersion: 1.0.0
