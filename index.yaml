@@ -105,6 +105,29 @@ entries:
   grocery-beep:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2021-10-15T19:33:53.527098226Z"
+    description: Scan barcodes to add products to your grocery shopping list
+    digest: 44a7b47a4c405f5fa2006f62521503e7ebb143e6d8b6bf2991f1d1efdcc21066
+    home: https://github.com/aolde/grocery-beep
+    keywords:
+    - mqtt
+    - grocery-shopping
+    - shopping-list
+    - barcode-scanner
+    - esp32
+    maintainers:
+    - name: Andreas Oldeskog
+      url: https://github.com/aolde
+    name: grocery-beep
+    sources:
+    - https://github.com/aolde/grocery-beep
+    - https://github.com/aolde/helm/tree/main/charts/grocery-beep
+    type: application
+    urls:
+    - https://github.com/aolde/helm/releases/download/grocery-beep-1.0.0/grocery-beep-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2021-10-15T15:44:00.369576018Z"
     description: Scan barcodes to add products to your grocery shopping list
     digest: be5ff845b01cec2d78d126c6916bbb2673434e443bc2c296d9263f18a13d5da0
@@ -126,4 +149,4 @@ entries:
     urls:
     - https://github.com/aolde/helm/releases/download/grocery-beep-0.0.1/grocery-beep-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-15T15:44:00.369590018Z"
+generated: "2021-10-15T19:33:53.527119126Z"
